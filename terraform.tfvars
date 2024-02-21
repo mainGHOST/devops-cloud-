@@ -1,2 +1,2 @@
 aws_region = "eu-north-1"
-bucket_name = "babaghostboss"
+bucket_name = "olavicresumee"

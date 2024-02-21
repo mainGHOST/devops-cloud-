@@ -19,7 +19,6 @@ resource "aws_s3_bucket_object" "cloude" {
   bucket = aws_s3_bucket.hosting_bucket.id
   key    = "cloude/"  # Destination folder in the S3 bucket
   source = "staticsite/cloude"
-  recursive = true
 }
 
 
